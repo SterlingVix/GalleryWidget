@@ -59,6 +59,9 @@ td {
   margin: .5em;
 }
 
+/*****
+ * Optional styling for webkit browsers
+ ****/
 ::-webkit-scrollbar {
     width: 12px;
 }
