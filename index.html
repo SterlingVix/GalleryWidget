@@ -8,27 +8,29 @@
 </head>
 
 <body>
-  <button class="testbutton" onclick="document.clickFunction(1)">Append</button>
-  <button class="testbutton" onclick="document.clickFunction(2)">Set</button>
-  <button class="testbutton" onclick="document.clickFunction(3)">Error</button>
-
-  <div class="container" id="top-container">
-  </div>
-  
-  <div class="container" id="middle-container">
-  </div>
-  
-  <div class="container" id="bottom-container">
-  </div>
-
+  <header>
+    <table>
+      <tr>
+        <td>
+          <button class="testbutton" onclick="document.addWidget('thumb', 'left-container')">Thumbnail Widget</button>
+        </td>
+        <td>
+          <button class="testbutton" onclick="document.addWidget('single', 'right-container')">Single-image Widget</button>
+        </td>
+      </tr>
+    </table>
+  </header>
+      
+  <table>
+    <tr>
+      <td>
+        <div class="container" id="left-container"></div>
+      </td>
+      <td>
+        <div class="container" id="right-container"></div>
+      </td>
+    </tr>
+  </table>
 </body>
 
 </html>
-
-<!--
-
-make image clickable
-
-
-
--->
